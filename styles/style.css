@@ -2,9 +2,9 @@
 
 :root {
   --white: #ffffff;
-  --salte-300: #d5e1ef;
-  --salte-500: #68778d;
-  --salte-900: #1f314f;
+  --slate-300: #d5e1ef;
+  --slate-500: #68778d;
+  --slate-900: #1f314f;
 
   --ff-base: "Outfit", sans-serif;
 }
@@ -49,13 +49,12 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
-  border: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  margin: -1px;
   overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .card {
@@ -94,4 +93,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0;
   color: var(--salte-900);
+}
+
+:focus-visible {
+  outline: 2px dashed var(--slate-900);
+  outline-offset: 2px;
 }

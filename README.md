@@ -17,6 +17,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+This repository contains my implementation of the QR code component from the Frontend Mentor challenge. The result matches the provided design in terms of layout, typography, colors, and spacing.
+
 ### Screenshot
 
 ![screenshot](./screenshot.png)
@@ -46,9 +48,9 @@ This project was a great opportunity to reinforce my understanding of building a
 ```css
 :root {
   --white: #ffffff;
-  --salte-300: #d5e1ef;
-  --salte-500: #68778d;
-  --salte-900: #1f314f;
+  --slate-300: #d5e1ef;
+  --slate-500: #68778d;
+  --slate-900: #1f314f;
   --ff-base: "Outfit", sans-serif;
 }
 ```
